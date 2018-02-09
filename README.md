@@ -38,6 +38,7 @@ pod 'KAutoProperty'
 #import "NSObject+KuahAutoProperty.h"
 ```
 ### 遵循协议
+> 使用 `$$` 或 `<kap>`
 ```
 @property (nonatomic,strong)NSArray $$ *arr;
 @property (nonatomic,strong)UITextView <kap> *textView;
