@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'KProperty'
+  s.name         = 'KAutoProperty'
   s.version      = '0.1'
   s.summary      = '一键懒加载'
   s.homepage     = 'https://github.com/kuah/KAutoProperty'
