@@ -1,7 +1,31 @@
 # KAutoProperty
 自动填充配置属性
 
-![](http://upload-images.jianshu.io/upload_images/2170902-bd2ac34e6a90ddf0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+```
+#import "ViewController.h"
+#import "NSObject+KuahAutoProperty.h"
+@protocol a @end
+@interface ViewController ()
+@property (nonatomic,strong)UIView <kap,a> *testview;
+@property (nonatomic,strong)NSMutableArray $$ *marr;
+@property (nonatomic,strong)NSArray $$ *arr;
+@property (nonatomic,strong)UITextView <kap> *textView;
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    [self kap];
+    
+    [self.marr addObject:@"a"];
+    NSLog(@"%@",self.marr);
+    self.textView.text = @"1";
+    NSLog(@"%@",self.textView.text);
+}
+@end
+```
 
 ## Install
 ```
