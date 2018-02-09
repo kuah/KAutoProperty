@@ -1,6 +1,27 @@
 # KAutoProperty
 自动填充配置属性
 
+## Preface
+你的代码只要是符合国家标准，少用xib的话。那么，你肯定遇到下面`绝望`的情况~~~ 那么，这个库就能很大程度上帮到你~!
+```
+    self.headImageView = [UIImageView new];
+    self.userNameLabel = [UILabel new];
+    self.sex_ageView = [UIButton new];
+    self.sexImageView= [UIImageView new];
+    self.ageLabel = [UILabel new];
+    self.arrowImageView = [UIImageView new];
+    self.topView = [UIView new];
+    self.actionLabel = [UILabel new];
+    self.groupNameLabel = [UILabel new];
+    self.timeLabel = [UILabel new];
+    self.descLabel = [UILabel new];
+    line1 = [UIView new];
+    self.refuseButton = [UIButton new];
+    self.agreeButton = [UIButton new];
+    self.contentView = [UIView new];
+```
+
+## Example
 ```
 #import "ViewController.h"
 #import "NSObject+KuahAutoProperty.h"
