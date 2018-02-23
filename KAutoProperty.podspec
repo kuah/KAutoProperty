@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'KAutoProperty'
-  s.version      = '0.1'
+  s.version      = '0.2'
   s.summary      = '一键懒加载'
   s.homepage     = 'https://github.com/kuah/KAutoProperty'
   s.author       = "CT4 => 284766710@qq.com"

@@ -8,7 +8,17 @@
 
 #import "NSObject+KuahAutoProperty.h"
 #import <KRunTime/KRunTime.h>
+
+#if __has_include(<YYModel/YYModel.h>) && !__has_include(<YYKit/YYModel.h>)
 #import <YYModel/YYModel.h>
+#endif
+#if !__has_include(<YYModel/YYModel.h>) && __has_include(<YYKit/YYModel.h>)
+#import <YYKit/YYModel.h>
+#endif
+#if !__has_include(<YYModel/YYModel.h>) && !__has_include(<YYKit/YYModel.h>)
+#import "YYModel.h"
+#endif
+
 @implementation NSObject (KuahAutoProperty)
 -(void)kap{
     unsigned int propertyCount;
