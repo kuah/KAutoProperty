@@ -12,11 +12,11 @@
 #if __has_include(<YYModel/YYModel.h>) && !__has_include(<YYKit/YYModel.h>)
 #import <YYModel/YYModel.h>
 #endif
-#if !__has_include(<YYModel/YYModel.h>) && __has_include(<YYKit/YYModel.h>)
-#import <YYKit/YYModel.h>
+#if !__has_include(<YYModel/YYModel.h>) && __has_include(<YYKit/NSObject+YYModel.h>)
+#import <YYKit/NSObject+YYModel.h>
 #endif
-#if !__has_include(<YYModel/YYModel.h>) && !__has_include(<YYKit/YYModel.h>)
-#import "YYModel.h"
+#if !__has_include("<YYModel/YYModel.h>") && !__has_include(<YYKit/NSObject+YYModel.h>)
+#import "NSObject+YYModel.h"
 #endif
 
 @implementation NSObject (KuahAutoProperty)
@@ -41,7 +41,7 @@
                 
                 id object = [[cls alloc] init];
                 if (object) {
-                    [self yy_modelSetWithJSON:@{propName:object}];
+                    [self modelSetWithJSON:@{propName:object}];
                 }
             }@catch (NSException *exception) {
                 
