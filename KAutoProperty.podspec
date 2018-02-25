@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'KAutoProperty'
-  s.version      = '2.0.0'
+  s.version      = '2.0.1'
   s.summary      = '一键懒加载'
   s.homepage     = 'https://github.com/kuah/KAutoProperty'
   s.author       = "CT4 => 284766710@qq.com"
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.frameworks = 'UIKit'
   s.dependency 'YYKit', '~> 1.0.9'
-  s.dependency 'KRunTime', '~> 0.1'
+  s.dependency 'KRunTime', '~> 0.2'
 end

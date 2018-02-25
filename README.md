@@ -51,6 +51,8 @@
 ## Install
 ```
 pod 'KAutoProperty'
+
+//version   版本2开头为yykit版 其余开头的为yymodel版
 ```
 
 ## Usage
