@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		09C3C17D8357979CE891CCE6 /* Pods-KAutoProperty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAutoProperty.release.xcconfig"; path = "Pods/Target Support Files/Pods-KAutoProperty/Pods-KAutoProperty.release.xcconfig"; sourceTree = "<group>"; };
+		0B40307C204682C30016BC0E /* KAutoProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAutoProperty.h; sourceTree = "<group>"; };
 		0BB15503202D984B007CBF61 /* KAutoProperty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAutoProperty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB15506202D984B007CBF61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0BB15507202D984B007CBF61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 			children = (
 				0BB1551D202D99FC007CBF61 /* NSObject+KuahAutoProperty.m */,
 				0BB1551E202D99FC007CBF61 /* NSObject+KuahAutoProperty.h */,
+				0B40307C204682C30016BC0E /* KAutoProperty.h */,
 			);
 			path = source;
 			sourceTree = "<group>";
